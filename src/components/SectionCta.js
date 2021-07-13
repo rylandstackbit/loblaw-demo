@@ -11,7 +11,7 @@ export default function SectionCta(props) {
     const actions = _.get(section, 'actions');
 
     return (
-        <section id={sectionId} className="block cta-block">
+        <section id={sectionId} className="block cta-block pt-10">
             <div className="inner-large">
                 <div className="grid">
                     <div className="cell block-content">
