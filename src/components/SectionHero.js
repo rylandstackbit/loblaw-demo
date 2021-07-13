@@ -24,7 +24,7 @@ export default function SectionHero(props) {
                         </div>
                     )}
                     <div className="cell block-content">
-                        {title && <h2 className="extra-bold">{title}</h2>}
+                        {title && <h2 className="block-title extra-bold">{title}</h2>}
                         {content && (
                             <div className="block-copy">
                                 <ReactMarkdown>{content}</ReactMarkdown>
