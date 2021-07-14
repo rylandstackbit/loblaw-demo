@@ -15,16 +15,16 @@ export default function SectionHero(props) {
     const actions = _.get(section, 'actions');
 
     return (
-        <section id={sectionId} className="block hero-block bg-accent outer">
+        <section id={sectionId} className="block hero-block">
             <div className="inner">
-                <div className="grid">
+                <div className="grid pt-10">
                     {image && (
                         <div className="cell block-preview">
                             <img src={withPrefix(image)} alt={imageAlt} />
                         </div>
                     )}
                     <div className="cell block-content">
-                        {title && <h2 className="block-title underline">{title}</h2>}
+                        {title && <h2 className="block-title extra-bold">{title}</h2>}
                         {content && (
                             <div className="block-copy">
                                 <ReactMarkdown>{content}</ReactMarkdown>

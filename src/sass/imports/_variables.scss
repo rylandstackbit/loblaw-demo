@@ -1,9 +1,10 @@
 // Fonts
-$font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+// $font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-monospace: Noir Std, Arial, Helvetica, sans-serif !default;
 
 // Colors
-$color-primary: #0072ff !default;
-$color-secondary: #00c6ff !default;
+$color-primary: #000000 !default;
+$color-secondary: #ffffff !default;
 
 $gray-100: #f7f9fb !default;
 $gray-200: #ebecf0 !default;
@@ -12,11 +13,12 @@ $gray-400: #999fb3 !default;
 $gray-500: #7b839e !default;
 $gray-600: #4c5267 !default;
 $gray-700: #2c2f3b !default;
+$black: #000000 !default;
 
 $yellow-pale: #fcffc4 !default;
 
 // Border radius
-$border-radius: 3px;
+$border-radius: 20px;
 
 // Box shadow
 $box-shadow: 0 3px 10px 0 rgba($gray-600, 0.1) !default;
@@ -38,11 +40,11 @@ $grid-gap: 1.66667rem !default;
 // Theme variations
 $theme-fonts: (
   nunito-sans: (
-    "Nunito Sans",
+    "Noir Std",
     sans-serif
   ),
   fira-sans: (
-    "Fira Sans",
+    "Arial",
     sans-serif
   ),
   system-sans: (
@@ -60,7 +62,7 @@ $theme-fonts: (
 
 $theme-palettes: (
   cyan: (
-    primary: #2cb1bc,
+    primary: #000,
     secondary: #54d1db
   ),
   green: (
